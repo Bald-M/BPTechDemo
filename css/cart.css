@@ -1,0 +1,83 @@
+/* Mobile */
+@media screen and (max-width: 768px){
+    .bp-tech {
+        width: 164px;
+        height: 56px;
+        background: url("../img/BPTech-Logo-Mobile.png") no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .img{
+        /*height: 30px;*/
+        height: 10px;
+    }
+
+    #checkall{
+        width: 1px;
+    }
+
+    .cart-layout{
+        background-color: #e0e0e0;
+    }
+
+    .cart-title{
+        font-size: 0.5rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .price{
+        color: #FF6700;
+        font-weight: bold;
+    }
+
+    .footer-nav{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-nav>li>a{
+        text-decoration: none;
+        color: #000000;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .bp-tech {
+        width: 350px;
+        height: 120px;
+        background-size: 100% 100%;
+        background: url("../img/BPTech-Logo-Desktop.png") no-repeat;
+    }
+
+    .img{
+        height: 100px;
+    }
+
+    .cart-layout{
+        background-color: #e0e0e0;
+    }
+
+    .cart-title{
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .price{
+        color: #FF6700;
+        font-weight: bold;
+    }
+
+    .footer-nav{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-nav>li>a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+}

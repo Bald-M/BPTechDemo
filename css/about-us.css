@@ -1,0 +1,134 @@
+/* Phone */
+@media screen and (max-width: 768px) {
+    .bp-tech {
+        width: 164px;
+        height: 56px;
+        background: url("../img/BPTech-Logo-Mobile.png") no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .banner{
+        height: 200px;
+        background-color: #f6f6f6;
+    }
+
+    .banner-selfie{
+        height: 200px;
+        background: url("../img/About-Me-Banner.png") no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .banner-header{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+
+    .banner-title{
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    span{
+        color: #4D70D5;
+    }
+
+    .banner-description{
+        font-size: 10px;
+    }
+
+    .business-value{
+        height: 220px;
+        background-color: #D9D9D9;
+    }
+
+    .business-value-header{
+        font-size: 12px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .business-value-content{
+        font-size: 10px;
+        text-align: center;
+    }
+
+    .footer-nav{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-nav>li>a{
+        text-decoration: none;
+        color: #000000;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .bp-tech {
+        width: 350px;
+        height: 120px;
+        background-size: 100% 100%;
+        background: url("../img/BPTech-Logo-Desktop.png") no-repeat;
+    }
+
+    .banner{
+        height: 480px;
+        background-color: #f6f6f6;
+    }
+
+    .banner-selfie{
+        height: 480px;
+        background: url("../img/About-Me-Banner.png") no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .banner-header{
+        font-size: 3.75rem;
+        font-weight: bold;
+    }
+
+    .banner-title{
+        font-size: 1.875rem;
+        font-weight: bold;
+    }
+
+    span{
+        color: #4D70D5;
+    }
+
+    .banner-description{
+        font-size: 1.875rem;
+    }
+
+    .business-value{
+        height: 200px;
+        background-color: #D9D9D9;
+    }
+
+    .business-value-header{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .business-value-content{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    span{
+        color: #212529;
+    }
+
+    .footer-nav{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-nav>li>a{
+        text-decoration: none;
+        color: #000000;
+    }
+
+}

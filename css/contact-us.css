@@ -1,0 +1,84 @@
+/* Phone */
+@media screen and (max-width: 768px){
+    .bp-tech {
+        width: 164px;
+        height: 56px;
+        background: url("../img/BPTech-Logo-Mobile.png") no-repeat;
+        background-size: 100% 100%;
+    }
+
+    .feedback{
+        background-color: #d9d9d9;
+        height: 150px;
+    }
+
+    .feedback-header{
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .feedback-content{
+        font-size: 0.5rem;
+        text-align: center;
+    }
+
+    .feedback-form{
+        background-color: #f6f6f6;
+        text-align: center;
+    }
+
+    .footer-nav{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-nav>li>a{
+        text-decoration: none;
+        color: #000000;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 992px) {
+    .bp-tech {
+        width: 350px;
+        height: 120px;
+        background-size: 100% 100%;
+        background: url("../img/BPTech-Logo-Desktop.png") no-repeat;
+    }
+
+    .feedback{
+        background-color: #d9d9d9;
+        height: 230px;
+    }
+
+    .feedback-header{
+        font-size: 2rem;
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .feedback-content{
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .feedback-form{
+        background-color: #f6f6f6;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .footer-nav{
+        list-style-type: none;
+        padding: 0;
+    }
+
+    .footer-nav>li>a{
+        text-decoration: none;
+        color: #000000;
+    }
+}

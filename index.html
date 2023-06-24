@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+    <title>Home</title>
+
+<!--    Link CSS to this html file -->
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+<!--    Link BootStrap icon to this html file -->
+    <link rel="stylesheet" href="bootstrap/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+<!--    Container sets a max-width at each responsive breakpoint -->
+<!-- When the width of device is less than 576px, the width of the container will be 100% -->
+<!-- When the width of device is greater than 992px, the width of the container will be 960px -->
+    <div class="container">
+
+<!--        First row for navigation bar at the top -->
+        <div class="row bg-black sticky-top fixed-top">
+            <div class="bp-tech col-4"></div>
+            <div class="col-8 d-flex align-items-center justify-content-center">
+                <nav class="navbar navbar-expand-md navbar-dark">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="collapsibleNavbar">
+                        <ul class="navbar-nav">
+                            <li class="nav-item">
+                                <a class="nav-link active" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Products</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about-us.html">About Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact-us.html">Contact Us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="signup.html">Account</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="cart.html">Cart</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+<!--       Second row for Bootstrap Carousel Components -->
+        <div class="row my-5">
+            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="img/banner1.jpeg" class="d-block w-100 banner">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner2.jpg" class="d-block w-100 banner">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="img/banner3.jpg" class="d-block w-100 banner">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+<!--        Third row for couples of brand logo -->
+        <div class="row my-5">
+            <div class="brand-logos">
+                <div class="row">
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/Apple.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/Microsoft.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/ASUS.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/Huawei.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/Oppo.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/HP.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/IBM.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/Oppo.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/Logitech.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/GIGABYTE.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/Mi.png" alt="#" class="logos">
+                    </div>
+                    <div class="col-md-3 col-4 my-5  d-flex align-items-center justify-content-center">
+                        <img src="img/Philips.png" alt="#" class="logos">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+<!-- The last row of the container is the footer. -->
+        <div class="row">
+            <div class="col-12 border-bottom border-primary">
+                <div class="row">
+                    <div class="col-md-8 col d-flex justify-content-center justify-content-md-start">
+                        <p>Get connected with us on social networks:</p>
+                    </div>
+                    <div class="col-md-4 col-12">
+                        <i class="bi bi-facebook mx-3"></i>
+                        <i class="bi bi-twitter mx-3"></i>
+                        <i class="bi bi-instagram mx-3"></i>
+                        <i class="bi bi-discord mx-3"></i>
+                        <i class="bi bi-google mx-3"></i>
+                        <i class="bi bi-linkedin mx-3"></i>
+                        <i class="bi bi-github mx-3"></i>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <i class="bi bi-building"></i>
+                <span>BP TECH</span>
+                <p class="my-3">BPTECH is an electronic device retail store that offers a wide range of electronic products such as smartphones, laptops, tablets, cameras, audio devices, and accessories. The store prides itself on providing quality products at competitive prices, and has built a reputation for excellent customer service.</p>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <i class="bi bi-question-square-fill"></i>
+                <span>GET HELP</span>
+                <ul class="footer-nav my-3">
+                    <li class="my-3"><a href="#">Order Status</a></li>
+                    <li class="my-3"><a href="#">Shipping and Delivery</a></li>
+                    <li class="my-3"><a href="#">Returns</a></li>
+                    <li class="my-3"><a href="#">Payment Options</a></li>
+                    <li class="my-3"><a href="contact-us.html">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <i class="bi bi-info-square-fill"></i>
+                <span>ABOUT BP TECH</span>
+                <ul class="footer-nav my-3">
+                    <li class="my-3"><a href="#">News</a></li>
+                    <li class="my-3"><a href="#">Careers</a></li>
+                    <li class="my-3"><a href="#">Investors</a></li>
+                    <li class="my-3"><a href="#">Sustainability</a></li>
+                </ul>
+            </div>
+
+            <div class="col-md-3 col-6">
+                <i class="bi bi-globe"></i>
+                <span>CONTACT</span>
+                <ul class="footer-nav my-3">
+                    <li class="my-3">
+                        <i class="bi bi-house-fill mx-3"></i>
+                        <a href="#">xxx</a>
+                    </li>
+                    <li class="my-3">
+                        <i class="bi bi-envelope mx-3"></i>
+                        <a href="#">xxx@gmail.com</a>
+                    </li>
+                    <li class="my-3">
+                        <i class="bi bi-phone-fill mx-3"></i>
+                        <a href="#">+64 2-392-8194</a>
+                    </li>
+                    <li class="my-3">
+                        <i class="bi bi-telephone-fill mx-3"></i>
+                        <a href="#">+64 2-392-8194</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="col-12 bg-black">
+                <p class="text-white-50" style="text-align: center">Copyright&copy; BP TECH 2023. All rights reserved</p>
+            </div>
+        </div>
+    </div>
+
+<!--    Link Bootstrap Javascript to this file -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>
